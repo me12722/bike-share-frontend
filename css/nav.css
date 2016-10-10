@@ -1,0 +1,61 @@
+a:hover, a:active{
+  text-decoration: none !important;
+}
+nav {
+  z-index: 100;
+  position:fixed;
+  top:0;
+  left:0;
+  width: 100vw;
+  height:50px;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+  background: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.logo {
+  font-size:200%;
+  top:0;
+  position: absolute;
+  left: 50px;
+}
+
+.sign_in{
+  top: 0;
+  position: absolute;
+  right: 50px;
+}
+
+.logo, .sign_in{
+  height: 50px;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.btn-register:hover, .btn-register:active{
+  color:white;
+  text-decoration: none;
+}
+.btn-register {
+  text-decoration: none;
+  background-color: #60b2d0;
+  border-color: #3798bc;
+  color: #fff;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 15px;
+  border-radius: 5px;
+}

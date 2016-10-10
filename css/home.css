@@ -1,0 +1,34 @@
+.home{
+  overflow:hidden;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top:0;
+  left:0;
+  background-image: url(../assets/homepageimage.jpg);
+  background-size:cover;
+  background-position: 50% 50%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home-backdrop{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.home-title{
+  position:absolute;
+  top: calc(50% - 200px);
+  width:100%;
+  color: white;
+}
+.home-title h1{
+  font-size: 400%;
+  font-weight: bold;
+}

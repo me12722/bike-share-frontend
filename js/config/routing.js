@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('BikeShare').config(function ($stateProvider, $ urlRouterProvider) {
+angular.module('BikeShare').config(function ($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.otherwise('/');
   $stateProvider
     .state('default', {
       url : '/',
-      templateUrl: 'views.home.html'
+      templateUrl: 'views/home.html'
     });
 });
