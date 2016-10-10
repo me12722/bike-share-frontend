@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Bike Share</title>
+
+
+  </head>
+  <body ng-app="TableTop">
+
+    <!--add the navigation bar to top of the page-->
+    <!-- <div ng-include="'views/nav.html'"></div> -->
+
+    <!-- this is where we render our partial views -->
+    <div ui-view></div>
+
+    <!-- script files here -->
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script><!--include Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.js"></script><!--include angularJS-->
+    <script src="https://apis.google.com/js/platform.js"></script>
+    <script src="https://apis.google.com/js/api:client.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script><!--include the UI rooter-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
+    <script src="js/config/routing.js"></script>
+  </body>
+</html>
