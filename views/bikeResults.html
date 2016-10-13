@@ -1,0 +1,31 @@
+<div class="bikeResults-header"></div>
+<div class="bikeResults-content" ng-controller="bikeResultsController">
+  <div class="search">
+    <form>
+      <input class="date" placeholder="Reseravation Date" type="text" class="form-control">
+      <select class="time" name="select" ng-model="query_hour">
+        <option value="1" selected>1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+      </select>
+      <select class="am_pm" name="select" ng-model="num_people">
+        <option value="1" selected>1 Person</option>
+        <option value="2">2 Persons</option>
+        <option value="3">3 Persons</option>
+        <option value="4">4 Persons</option>
+        <option value="5">5 Persons</option>
+        <option value="6">6 Persons</option>
+        <option value="7">7 Persons</option>
+        <option value="8">8 Persons</option>
+      </select>
+      <input ng-model="query" class="query" type="text" placeholder="Type of Bike">
+    </form>

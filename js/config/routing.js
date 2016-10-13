@@ -6,5 +6,9 @@ angular.module('BikeShare').config(function ($stateProvider, $urlRouterProvider)
     .state('default', {
       url : '/',
       templateUrl: 'views/home.html'
+    })
+    .state('bikeResults',{
+      url : '/bikes',
+      templateUrl: 'views/bikeResults.html'
     });
 });
